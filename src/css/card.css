@@ -1,0 +1,77 @@
+.card {
+  width: 500px;
+  border-radius: 0!important;
+  border: 0!important;
+  margin: 10px;
+}
+.card-img {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  border-radius: 0!important;
+  border: 0!important;
+}
+.card-body {
+  color: #24245E;
+  height: 300px;
+  padding: 20px;
+  padding-left: 60px;
+  padding-top: 8%;
+}
+
+.card-text h2 {
+  font-size: 28px;
+  line-height: 30px;
+  font-family: "proxima nova";
+  font-weight: 800;
+  letter-spacing: 1.16px;
+  text-align: left;
+}
+.card-text p {
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: "Proxima Nova";
+  text-align: left;
+}
+.card-text button {
+  background: linear-gradient(#56992B,#62A62F );
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 980px) {
+  .card {
+    width: 400px;
+    margin-bottom: 20%!important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+    margin: 0;
+  }
+  .card-body {
+    padding: 50px !important;
+  }
+  .card-text {
+    text-align: center;
+  }
+  .card-text h2 {
+    text-align: center;
+  }
+  .card-text p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .card-text button {
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 8px;
+  }
+}
+@media only screen and (max-width: 480px) {
+}

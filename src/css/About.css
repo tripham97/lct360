@@ -1,0 +1,206 @@
+.about-heading {
+  color: white;
+  height: 100vh;
+  background-image: url("/public/images/Mask Group 29@2x.jpg");
+  background-size: cover;
+}
+
+.about-tag h1 {
+  position: absolute;
+  top: 50%;
+  padding: 30px 50px;
+  background: linear-gradient(#56992B,#62A62F );
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+  font-family: "proxima nova";
+}
+
+/* banner 1 */
+.banner-container-1 {
+ background-color: black;
+  color: white;
+  padding: 50px 100px;
+  display: flex;
+}
+
+.content-left{
+  background: url("/public/images/back-g.jpg");
+  background-size: cover;
+}
+.content-left h1{
+  margin-left: -100px;
+}
+.content-left,
+.content-right {
+  width: 50%;
+}
+.content-left {
+  padding-left: 100px;
+  padding-right: 50px;
+}
+.content-right h4 {
+  font-size: 18px;
+  font-weight: 630;
+  line-height: 25px;
+  margin-bottom: 40px;
+}
+
+.content-right p {
+  margin-bottom: 40px;
+  font-weight: oblique !important;
+}
+
+/* Banner-2 */
+.about-banner2 {
+  background: linear-gradient(#56992B,#62A62F );
+  display: flex;
+  width: 100vw;
+  padding: 50px 100px;
+  color: white;
+}
+.bg-blue {
+  background: #24245E;
+  color: white;
+}
+.about-banner2-left {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  /* position: relative; */
+}
+.about-banner2-right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 100px;
+}
+.ceo-card {
+  width: 350px;
+  border-radius: 0 !important;
+  /* position: absolute; */
+  /* top: -220px;
+  right: 70px; */
+  z-index: 100;
+  margin: 0;
+}
+.about-banner2-right h1 {
+  font-family: "proxima nova";
+  font-weight: 700;
+  letter-spacing: 1.16px;
+  margin-bottom: 10px;
+}
+
+.about-banner2-right h6 {
+  margin-top: 50px;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.about-banner2-right p {
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: "Proxima Nova";
+}
+.about-banner2-right a {
+  color: black !important;
+}
+
+.about-banner2-left .card-body {
+  background: white;
+  color: #24245E;
+  height: auto;
+}
+
+.about-banner2-left .card-text {
+  padding-left: 20px;
+  padding-top: 20px;
+  position: relative;
+}
+
+.about-banner2-left .card-text h2 {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: proxima-nova, sans-serif;
+}
+
+.about-banner2-left .card-text p {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: proxima-nova, sans-serif;
+}
+
+.about-banner2-left .card-text a img {
+  width: 30px;
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .ceo-card {
+    width: 250px;
+    /* top: -120px; */
+  }
+  .banner-container-1 {
+    padding: 50px;
+  }
+  .content-left {
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .about-banner2 {
+    padding: 30px;
+  }
+  .content-right h6 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-container-1 {
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  .content-left,
+  .content-right {
+    width: 100%;
+  }
+  .content-left {
+    margin-bottom: 30px;
+  }
+
+  .ceo-card {
+    width: 200px;
+    /* left: 30px; */
+  }
+  .ceo-card .card-body {
+    padding: 20px !important;
+  }
+  .about-banner2-right h6 {
+    margin-top: 40px;
+  }
+  .about-banner2-left .card-text a img {
+    bottom: -30px;
+    right: 30%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-banner2 {
+    flex-direction: column;
+  }
+  .about-banner2-left,
+  .about-banner2-right {
+    width: 100%;
+    padding: 30px;
+  }
+  .ceo-card {
+    width: 300px;
+  }
+}

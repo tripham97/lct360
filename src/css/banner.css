@@ -1,0 +1,100 @@
+.banner-container {
+  height: 100%;
+  display: flex;
+}
+
+.banner-top-left {
+  background: url("/public/images/Mask\ Group\ 6@2x.jpg") no-repeat;
+  border: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-top-right {
+  height: 100%;
+  width: 50%;
+  background: #24245E no-repeat;
+  padding: 80px !important;
+  color: white;
+}
+.banner-top-right button {
+  background: linear-gradient(#56992B,#62A62F );
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.banner-top-right h1 {
+  font-family: "proxima-nova-extra-condensed";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 30px;
+}
+.banner-top-right h4 {
+  font-family: "proxima-nova-extra-condensed";
+  font-size: 15px;
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+
+.banner-top-right p {
+  font-size: 16px;
+  font-family: "proxima-nova";
+}
+@media only screen and (max-width: 1200px) {
+  .banner-top-right {
+    padding: 50px !important;
+  }
+  .banner-top-right h1 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .banner-top-right h4 {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 700;
+  }
+  .banner-top-right button {
+    font-size: 12px;
+    padding: 5px 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner-top-left {
+    height: 70vh;
+  }
+  .content-top-left,
+  .content-top-right {
+    position: relative;
+  }
+  .banner-top-right {
+    text-align: center;
+  }
+  .banner-top-right h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .banner-top-right h4 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .banner-top-right p {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .banner-top-right button {
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 480px) {
+}

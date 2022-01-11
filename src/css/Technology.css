@@ -1,0 +1,192 @@
+.technology-title {
+  color: white;
+  position: relative;
+  background: url("/public/images/Mask\ Group\ 18.jpeg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+
+.tech-box {
+  font-family: "proxima nova";
+  background: linear-gradient(#56992B,#62A62F );
+  width: 30%;
+  padding: 30px 50px;
+  position: absolute;
+  top: 50%;
+}
+.tech-box h1,
+.content-tech-top-right h1,
+.content-tech-left h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.tech-box h4 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content-tech-top-right h4,
+.content-tech-left h4 {
+  font-size: 18px;
+  font-weight: 630;
+  line-height: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.banner-tech-top-left-1 {
+  background: url("/public/images/Group 6.jpg") no-repeat;
+  border: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-tech-top-right {
+  height: 100%;
+  width: 50%;
+  background: #24245E;
+  color: #ffffff;
+  padding: 80px !important;
+}
+
+.banner-tech-top-left-2 {
+  background: url("/public/images/Group14.jpg") no-repeat;
+  border: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-tech-top-left-3 {
+  background: url("/public/images/Group 13.jpg") no-repeat;
+  border: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-tech-right-1 {
+  background: url("/public/images/Group\ 9@2x.jpg") no-repeat;
+  border: none;
+  background-size: cover;
+  background-position: center;
+}
+.banner-tech-top-right-2 {
+  height: 100%;
+  width: 50%;
+  background:  linear-gradient(#56992B,#62A62F );
+  color: #ffffff;
+  padding: 80px !important;
+}
+
+.banner-tech-left {
+  height: 100%;
+  width: 50%;
+  background: white;
+  color: #24245E;
+  padding: 50px !important;
+}
+.banner-tech-right-2 {
+  background: url("/public/images/water.jpg") no-repeat;
+  border: none;
+  background-size: cover;
+  background-position: center;
+}
+.banner-tech-left-1 {
+  height: 100%;
+  width: 50%;
+  background: white;
+  color: #24245E;
+  padding: 50px !important;
+}
+.banner-tech-left-2{
+  height: 100%;
+  width: 50%;
+  background:  linear-gradient(#56992B,#62A62F );
+  color: #ffffff;
+  padding: 80px !important;
+}
+.content-tech-left p {
+  line-height: 1.3em !important;
+}
+.content-tech-left h6 {
+  font-size: 15px;
+  line-height: 1.6em;
+}
+.banner-tech-right-3 {
+  background: url("/public/images/Group 12.jpg") no-repeat;
+  border: none;
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (max-width: 1200px) {
+  .banner-tech-top-right {
+    padding: 50px !important;
+  }
+  .banner-tech-top-right h1 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .banner-tech-top-right h6 {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 700;
+  }
+}
+.tech-box {
+  width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+  .banner-tech-top-left {
+    height: 70vh;
+  }
+  .banner-tech-top-left-1 {
+    margin-top: 300px !important;
+  }
+  .content-tech-top-left,
+  .content-tech-top-right {
+    position: relative;
+  }
+  .banner-tech-top-right {
+    text-align: center;
+  }
+  .banner-tech-top-right h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .banner-tech-top-right h6 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .banner-tech-top-right p {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .tech-box {
+    width: 100%;
+    top: 100vh;
+  }
+
+  .banner-tech-right-1,
+  .banner-tech-right-2,
+  .banner-tech-right-3 {
+    width: 100%;
+    display: flex;
+    height: 70vh;
+  }
+  .banner-tech-top-left-1,
+  .banner-tech-top-left-2,
+  .banner-tech-top-left-3 {
+    width: 100%;
+    display: flex;
+    height: 70vh;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 480px) {
+}

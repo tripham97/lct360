@@ -1,0 +1,154 @@
+.nav-wrap {
+  background-color: transparent;
+  padding: 20px 100px;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  z-index: 100;
+
+}
+.nav-bg-black {
+  background: white;
+  position: fixed;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+.nav-left img {
+  width: 200px;
+}
+.nav-left img:hover {
+  cursor: pointer;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.nav-right button {
+  color: black;
+  background-color: transparent;
+  border: none;
+  margin-left: 30px;
+}
+.dropdown {
+  display: none;
+}
+.dropdown-item {
+color: white!important;
+  font-weight: bold!important;
+}
+.tech-dropdown {
+  display: flex;
+}
+.nav-left img{
+  width: 10%;
+}
+
+
+.dropdown-toggle:after {
+  display: none !important;
+}
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.dropdown-menu.show {
+  background-color: #244c53;
+
+  margin-top: -20px;
+}
+
+
+.dropdown-item:hover{
+  background-color: black!important;
+}
+.dropdown-toggle{
+  background-color: transparent!important;
+}
+@media only screen and (max-width: 1200px) {
+  .nav-wrap {
+    padding: 20px 50px;
+  }
+  .nav-left img {
+    width: 180px;
+  }
+  .nav-right button {
+    font-size: 12px;
+  }
+  .nav-left img{
+    width: 20%;
+  }
+  
+}
+
+@media only screen and (max-width: 980px) {
+  .nav-wrap {
+    padding: 20px 40px;
+  }
+  .nav-left img {
+    width: 120px;
+    height: 70px;
+  }
+  .nav-right button {
+    margin-left: 20px;
+  }
+  .nav-left img{
+    width: 50px;
+  }
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-wrap {
+    padding-top: 30px;
+  }
+  .nav-right > button {
+    display: none;
+  }
+  .dropdown {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+.tech-dropdown {
+  display: none;
+}
+  .dropdown-toggle {
+    background-color: transparent;
+    border: none;
+    width: 50px;
+    /* height: 100%; */
+  }
+  .dropdown-toggle hr {
+    background-color: white;
+    opacity: 1;
+    height: 3px !important;
+    border: none;
+    margin: 4px 0;
+    width: 100%;
+  }
+  .dropdown-menu.show {
+    background: linear-gradient(#56992B,#62A62F );
+    margin-top: 0px;
+    color: white;
+  }
+  .dropdown-item {
+      color: black !important;
+      font-weight: normal !important;
+    }
+    .dropdown-item:hover{
+      background-color: white!important;
+    }
+    .nav-left img{
+      width: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+}

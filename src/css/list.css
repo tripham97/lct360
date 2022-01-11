@@ -1,0 +1,89 @@
+.list-banner {
+  width: 100%;
+  background: white;
+  padding: 80px 100px 100px 100px;
+  text-align: center;
+}
+.list-banner h1 {
+  color: #24245E;
+  font-size: 30px;
+  line-height: 35px;
+  font-family: "proxima-nova";
+  font-weight: 700;
+  letter-spacing: 1.16px;
+  margin-bottom: 30px;
+}
+.list-banner p {
+  color: white;
+  font-size: 16px;
+  font-family: "proxima-nova";
+  text-align: center;
+}
+.list-banner-sub {
+  background-image: url("../../public/images/footer_photo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: "100%";
+  position: relative;
+}
+.top-cards {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+  top: -10%;
+}
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 980px) {
+}
+
+@media only screen and (max-width: 768px) {
+  .list-banner {
+    padding: 50px;
+  }
+  .list-banner h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .list-banner p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .list-banner-sub {
+    height: auto;
+    background-image: none;
+  }
+  .top-cards {
+    position: static;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card-text h1 {
+    font-size: 1rem !important;
+    width: 300px;
+    margin-top: 30px;
+  }
+
+  .card-text h4 {
+    font-size: 0.8rem !important;
+    width: 300px !important;
+  }
+
+  .list-banner h1 {
+    font-size: 30px !important;
+  }
+  .list-banner h4 {
+    font-size: 15px !important;
+    text-align: center;
+  }
+}

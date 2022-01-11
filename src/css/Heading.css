@@ -1,0 +1,261 @@
+.heading-main {
+  display: flex;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+p {
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: "Proxima Nova";
+}
+
+.left {
+  background: white;
+  color: #24245E;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.right {
+  width: 50%;
+  background: url("/public/images/main.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  scroll-behavior: smooth;
+}
+/* left side /top */
+.top {
+  padding: 0 100px;
+}
+
+.top h1 {
+  font-size: 30px;
+  line-height: 35px;
+  font-family: "proxima nova";
+  font-weight: 700;
+  letter-spacing: 1.16px;
+  margin-top: 300px;
+  margin-bottom: 30px;
+}
+
+/* button */
+
+.btn-group {
+  margin-top: 20px;
+}
+.btn-group .btn {
+  padding: 0;
+  margin-right: 20px;
+}
+
+.btn button {
+  background: linear-gradient(#56992B,#62A62F );
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* left side/ bottom */
+.bottom {
+  height: 250px;
+  display: flex;
+}
+.bottom .methane-img {
+  height: 100%;
+  width: 700px;
+  background-image: url("../../public/images/methane_2x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#56992B,#62A62F );
+  padding: 70px 50px;
+  color: white;
+  height: 100%;
+}
+.content h4 {
+  font-size: 15px;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+.content p {
+  margin: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  p {
+    font-size: 15px;
+    line-height: 19px;
+  }
+  /* left side/ top */
+  .top {
+    padding: 50px;
+    margin-top: 150px;
+  }
+  .top h1 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 50px;
+  }
+  .btn button {
+    font-size: 12px;
+    padding: 5px 20px;
+  }
+
+  /* left side/ bottom */
+  .bottom {
+    height: 200px;
+  }
+  .content {
+    padding: 40px 30px;
+  }
+  .content h4 {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  p {
+    font-size: 15px;
+  }
+  /* left side/ top */
+  .top {
+    padding: 30px;
+  }
+  .top h1 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 100px;
+  }
+  .btn-group {
+    margin-top: 15px;
+  }
+  .btn button {
+    font-size: 12px;
+  }
+  /* left side/ bottom */
+  .bottom {
+    height: 200px;
+  }
+  .content {
+    padding: 40px 30px;
+  }
+  .content h4 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .content p {
+    line-height: 18px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .heading-main {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+    height: 70vh;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: justify;
+  }
+  .top {
+    padding: 50px;
+  }
+
+  .top h1 {
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 0;
+  }
+  /* button */
+  .btn-group {
+    margin-top: 20px;
+    display: block !important;
+    text-align: center;
+  }
+
+  .btn button {
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 8px;
+  }
+
+  /* bottom */
+  .bottom {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+  .bottom .methane-img {
+    height: 400px;
+    width: 100%;
+    background-image: url("../../public/images/methane.png");
+  }
+  .content {
+    padding: 50px;
+  }
+  .content h4 {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .content p {
+    text-align: center;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  p {
+    font-size: 15px;
+  }
+  .top {
+    padding: 30px;
+  }
+
+  .top h1 {
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  /* bottom */
+  .bottom {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+  .bottom .methane-img {
+    height: 300px;
+  }
+  .content {
+    padding: 30px;
+  }
+  .content h4 {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .content p {
+    text-align: center;
+  }
+}

@@ -1,0 +1,208 @@
+.contact-top {
+  background: url("/public/images/methane.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 20%;
+  color: white;
+  position: relative;
+  padding-right: 70%;
+  height: 100vh;
+}
+.contact-top h1 {
+  font-size: 30px;
+  line-height: 35px;
+  font-family: "proxima nova";
+  font-weight: 700;
+  letter-spacing: 1.16px;
+}
+.contact-top .tag {
+  position: absolute;
+  top: 50%;
+  height: 100x;
+  padding: 30px 50px;
+  background-color: #3263c4;
+  font-size: 60px;
+  color: white;
+  font-weight: 700;
+}
+.contact-title {
+  background-color: #326ac4;
+  color: #ffffff;
+  height: 15%;
+  margin-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-bottom {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 100px;
+}
+
+.contact-bottom-left h1 {
+  font-size: 30px;
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.contact-bottom-left h4 {
+  font-size: 34px;
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  height: 74px;
+  margin-bottom: 45px;
+}
+.contact-bottom-left h6 {
+  font-size: 20px;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 700;
+  width: 398px;
+}
+.contact-bottom-left p {
+  font-size: 16px;
+  font-family: "Proxima Nova", sans-serif;
+  width: 536px;
+  margin-bottom: 100px;
+}
+.contact-bottom-left-content {
+  height: 100%;
+  width: 100%;
+  background-color: #1c1c1c;
+  color: white;
+  padding: 50px;
+  margin-left: 200px;
+  justify-content: center;
+  margin: auto;
+}
+
+.contact-bottom-right {
+  height: 100%;
+  width: 100%;
+  background-color: #1c1c1c;
+  color: white;
+  display: flex;
+  padding: 50px;
+  justify-content: left;
+  align-items: center;
+}
+.contact-bottom-right span {
+  display: flex;
+  margin-bottom: 40px;
+}
+.contact-bottom-right button {
+  background: linear-gradient(#56992B,#62A62F );
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 20px;
+  width: 536px;
+}
+.contact-bottom-right input {
+  width: 536px;
+  height: 64px;
+  background-color: transparent;
+  border: 2px #454545 solid;
+  border-radius: 5px;
+  color: white;
+  margin: auto;
+}
+.contact-bottom-right textarea {
+  background-color: #1c1c1c;
+  border: 2px #454545 solid;
+  border-radius: 5px;
+  color: white;
+  width: 536px;
+  height: 281px;
+}
+@media only screen and (max-width: 1200px) {
+  .contact-bottom-left {
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-bottom-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-bottom-left-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact-top {
+    padding-right: 60%;
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .contact-top {
+    padding-right: 20%;
+    height: 500px;
+  }
+  .contact-bottom {
+    padding: 10px;
+  }
+  .contact-bottom-left h1 {
+    font-size: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-bottom-left p {
+    font-size: 20px;
+    padding-right: 109px;
+    padding-left: 109px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-bottom-left h4 {
+    padding-right: 109px;
+    padding-left: 109px;
+
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+  .contact-bottom-left h6 {
+    padding-right: 109px;
+    padding-left: 109px;
+    font-size: medium;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+  .contact-bottom-right {
+    margin-left: 20px;
+  }
+
+  .contact-bottom-right input {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: 2px #454545 solid;
+    border-radius: 5px;
+    color: white;
+    margin: auto;
+  }
+  .contact-bottom-right textarea {
+    background-color: #1c1c1c;
+    border: 2px #454545 solid;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    height: 50px;
+  }
+  .contact-bottom-right button {
+    width: 90%;
+    height: 50px;
+  }
+}
