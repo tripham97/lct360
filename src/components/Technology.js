@@ -123,12 +123,12 @@ Condensate/NGL facilities.
             </Col>
             <Col xs={12} lg={6} className="banner-tech-top-right">
               <div className="content-tech-top-right">
-                <h1>INCREASED CAPACITY WITH REDUCED EMISSIONS</h1>
+                <h1>INCREASED CAPACITIES AND REDUCED EMISSIONS BECOME POSSIBLE</h1>
                 <h4>
-                Pipeline capacity increases can demonstrate decreased GHG Methane Emissions, end to end lifecycle lowered Carbon Footprints. Help achieve Carbon Neutral Crude Oil production improvements.
+                Pipeline capacities can be increased and demonstrably GHG Methane Emissions decreased. This technology can flexibly convert all gas and oil productions to non-saturated non-slugging lowered pressure production flows. Carbon Footprints and Carbon Neutral Crude Oil production improvements can be achieved throughout the end-to-end lifecycle of production and transports, potentially achieving COP26 goals much earlier than stated in Annual Reports or to the Public.
                 </h4>
                 <p>
-                The United States maintains about 2 million miles of natural gas distribution mains and pipelines, 321,000 miles of gas transmission and gathering pipelines, 175,000 miles hazardous liquid pipeline, and 114 active liquid natural gas plants that are connected to natural gas transmission and distribution systems. These large pipes are up to 42” diameter, with most being more than 10” diameter. Operating pressure is between 1,450 psi and 2,175 psi.  A flange exists at approximately three positions per mile along the transmission lines resulting in a surface target area for fugitive methane emissions to occur.  Increasing the pipeline capacity thus decreasing the operating pressures of system allow for the fugitive methane leaks to not occur.
+                The United States maintains about 2 million miles of natural gas distribution mains and pipelines, 321,000 miles of gas transmission and gathering pipelines, 175,000 miles hazardous liquid pipeline, and 114 active liquid natural gas plants that are connected to natural gas transmission and distribution systems. These large pipes are up to 42” diameter, with most being more than 10” diameter. Operating pressure is between 1,500 psi to 3,000 psi, especially Offshore. Three flanges exist per mile on the average, along the transmission lines resulting in large cumulative continuous fugitive methane emissions to occur. Decreasing the need for high pressure flows required for saturated Oil and Gas flows, decreases fugitive methane leaks and offers improved equipment life and capacities.
                 </p>
               </div>
             </Col>

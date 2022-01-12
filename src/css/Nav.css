@@ -10,6 +10,7 @@
 .nav-bg-black {
   background: white;
   position: fixed;
+  z-index: 9999!important;
 }
 .nav-left {
   display: flex;

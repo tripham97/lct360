@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 
 const Founder = ({ name, title, img, linkedln }) => {
   return (
-    <Card style={{ width: "100%", marginBottom: "0 !important" }}>
+    <Card style={{ width: "100%", marginBottom: "0 !important" , zIndex:"0"}}>
       <Card.Img variant="top" src={img} className="img-fluid" />
       <Card.Body>
         <Card.Text style={{ position: "relative" }}>

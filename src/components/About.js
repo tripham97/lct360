@@ -20,10 +20,12 @@ const About = () => {
 
         <div className="content-right">
           <h4>
-          LCT360 was founded in Sugarland, Texas with the mission of optimizing the petrochemical industry while providing clean energy and aiding in climate control. Our low carbon technology not only significantly reduces Green House Gas (GHG’s) emissions but also enhances the entire petrochemical industry by both increasing revenue and providing sustainability across the entire spectrum from production to consumer.
+          LCT360 was founded in Sugarland, Texas with the mission of bringing optimizing technologies to the Upstream, Midstream and Downstream Petrochemical industry while providing Low Carbon Footprint productions and aiding in climate control. Our low carbon technology not only significantly reduces Green House Gas (GHG’s) emissions but also enhances the entire industry by both increasing revenue and providing sustainability across the entire spectrum from production to consumer.
           </h4>
           <p>
-          There are three major components of our technology: flare recovery, NGL condensate to dry natural gas, and pipeline capacity increases. Our low carbon technology applies to upstream, midstream, and downstream operations in the petrochemical industry.
+There are three major components of our technology: Optimized and Integrated Oil – Gas To-Spec Productions reducing loads on Gas Plants or optimizing them, flare gas recoveries, and resultant Oil and Gas pipeline flow capacity increases. Our low carbon technology applies to upstream, midstream, and downstream operations in the petrochemical industry.
+
+
           </p>
           <p>
           Our technology application starts from the reduction and elimination of flaring into the atmosphere, to increasing new oil volume recoveries, to boosting the recoveries of Natural Gas Liquids to the highest possible levels, and to changing the economics of Liquefied Natural Gas production plants.
