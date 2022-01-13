@@ -1,5 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import * as FA from "react-icons/fa";
 
 const Founder = ({ name, title, img, linkedln }) => {
   return (
@@ -10,7 +11,7 @@ const Founder = ({ name, title, img, linkedln }) => {
           <h2>{name}</h2>
           <p>{title}</p>
           <a href={linkedln} target="_blank">
-            <img style={{}} src="./images/linkedin.png" className="line" />
+            <FA.FaLinkedin size={30}  />
           </a>
         </Card.Text>
       </Card.Body>

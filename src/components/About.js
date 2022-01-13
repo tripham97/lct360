@@ -3,6 +3,7 @@ import { Row, Col, Card, Button, Container } from "react-bootstrap";
 import "../css/About.css";
 import Founder from "./Founder";
 
+
 const About = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const About = () => {
       <div className="banner-container-1">
         <div className="content-left">
           <h1>WHAT IS</h1>
+         
           <h1>LCT360</h1>
         </div>
 
