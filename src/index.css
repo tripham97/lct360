@@ -66,6 +66,9 @@ p {
   h6 {
     font-size: 18px;
   }
+  html {
+    overflow-x: hidden;
+  }
 }
 @media only screen and (max-width: 980px) {
   h1 {
@@ -99,12 +102,21 @@ p {
   p {
     line-height: 18px;
   }
+  html {
+    overflow-x: hidden;
+  }
 }
 @media only screen and (max-width: 768px) {
   p {
     line-height: 25px;
     font-size: 15px;
   }
+  html {
+    overflow-x: hidden;
+  }
 }
 @media only screen and (max-width: 480px) {
+  html {
+    overflow-x: hidden;
+  }
 }

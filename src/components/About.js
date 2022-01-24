@@ -16,21 +16,21 @@ const About = () => {
       <div className="banner-container-1">
         <div className="content-left">
           <h1>WHAT IS</h1>
-         
+
           <h1>LCT360</h1>
         </div>
 
         <div className="content-right">
           <h4>
-          LCT360 was founded in Sugarland, Texas with the mission of bringing optimizing technologies to the Upstream, Midstream and Downstream Petrochemical industry while providing Low Carbon Footprint productions and aiding in climate control. Our low carbon technology not only significantly reduces Green House Gas (GHG’s) emissions but also enhances the entire industry by both increasing revenue and providing sustainability across the entire spectrum from production to consumer.
+            LCT360 was founded in Sugarland, Texas with the mission of bringing optimizing technologies to the Upstream, Midstream and Downstream Petrochemical industry while providing Low Carbon Footprint productions and aiding in climate control. Our low carbon technology not only significantly reduces Green House Gas (GHG’s) emissions but also enhances the entire industry by both increasing revenue and providing sustainability across the entire spectrum from production to consumer.
           </h4>
           <p>
-There are three major components of our technology: Optimized and Integrated Oil – Gas To-Spec Productions reducing loads on Gas Plants or optimizing them, flare gas recoveries, and resultant Oil and Gas pipeline flow capacity increases. Our low carbon technology applies to upstream, midstream, and downstream operations in the petrochemical industry.
+            There are three major components of our technology: Optimized and Integrated Oil – Gas To-Spec Productions reducing loads on Gas Plants or optimizing them, flare gas recoveries, and resultant Oil and Gas pipeline flow capacity increases. Our low carbon technology applies to upstream, midstream, and downstream operations in the petrochemical industry.
 
 
           </p>
           <p>
-          Our technology application starts from the reduction and elimination of flaring into the atmosphere, to increasing new oil volume recoveries, to boosting the recoveries of Natural Gas Liquids to the highest possible levels, and to changing the economics of Liquefied Natural Gas production plants.
+            Our technology application starts from the reduction and elimination of flaring into the atmosphere, to increasing new oil volume recoveries, to boosting the recoveries of Natural Gas Liquids to the highest possible levels, and to changing the economics of Liquefied Natural Gas production plants.
           </p>
         </div>
       </div>
@@ -42,7 +42,7 @@ There are three major components of our technology: Optimized and Integrated Oil
               name="KIRTI PATEL"
               title="FOUNDER AND CTO"
               linkedln="https://www.linkedin.com/in/k-patel-220238177"
-              img="images/founder.jpg"
+              img="images/founder-1.jpg"
             />
           </div>
         </div>
@@ -51,7 +51,7 @@ There are three major components of our technology: Optimized and Integrated Oil
           <h1>LCT360</h1>
           <h6>KIRTI PATEL</h6>
           <p>
-          Lead Supervisory positions for Front End Pre-FEED Conceptuals, FEED’s to detailed design of many of the world’s most significant offshore and onshore projects. Including, LNG, NGL, Oil, Gas, Waxy Crudes, Heavy Crudes, difficult Emulsion-Crudes, Produced Water Processing, to including evaluations of flow assurance to sub-surface/surface facility issues. Including multi-phase, heavy crudes, waxy crudes, dense-phase, tar-sands oil-diluents, flow lines, optimization and cost studies. Can start from raw field data and completely design oil and gas process facilities. Other past experience includes Plant Designs for Ethylene, Propylene, Ethoxylation, Polyols, & Methanol productions per License Packages (Fluor, United Engineers).
+            Lead Supervisory positions for Front End Pre-FEED Conceptuals, FEED’s to detailed design of many of the world’s most significant offshore and onshore projects. Including, LNG, NGL, Oil, Gas, Waxy Crudes, Heavy Crudes, difficult Emulsion-Crudes, Produced Water Processing, to including evaluations of flow assurance to sub-surface/surface facility issues. Including multi-phase, heavy crudes, waxy crudes, dense-phase, tar-sands oil-diluents, flow lines, optimization and cost studies. Can start from raw field data and completely design oil and gas process facilities. Other past experience includes Plant Designs for Ethylene, Propylene, Ethoxylation, Polyols, & Methanol productions per License Packages (Fluor, United Engineers).
           </p>
           <a href="/images/EXPERIENCE LIST OF PROJECTS.pdf"> LIST OF PROJECTS EXPERIENCE</a>
         </div>

@@ -12,7 +12,7 @@ const SupportingScreen = () => {
       <div className="content-wrapper">
         <h1>LOW CARBON TECHNOLOGY</h1>
         <p>
-        Its application starts from the reduction and elimination of flaring into the atmosphere, to increasing net oil volume recoveries, to boosting the recoveries of Natural Gas Liquids (NGL - Propane, etc) to the highest possible levels, and to changing the economics of Liquefied Natural Gas (LNG) production plants.
+          Its application starts from the reduction and elimination of flaring into the atmosphere, to increasing net oil volume recoveries, to boosting the recoveries of Natural Gas Liquids (NGL - Propane, etc) to the highest possible levels, and to changing the economics of Liquefied Natural Gas (LNG) production plants.
         </p>
         <div className="document-wrapper">
           <div className="document-img">
@@ -30,11 +30,11 @@ const SupportingScreen = () => {
 
         <div className="document-wrapper">
           <div className="document-img">
-            <img src="images/heat_map_2.jpg" />
+            <img src="images/tech_comp.jpg" />
           </div>
           <div className="document-description">
             <h1>TECHNOLOGIES COMPARISION</h1>
-            <a href="images/heat_map_2.jpg" download={true}>
+            <a href="images/tech_comp.jpg" download={true}>
               {" "}
               <button>DOWNLOAD</button>
             </a>
@@ -44,12 +44,12 @@ const SupportingScreen = () => {
         </div>
         <div className="document-wrapper">
           <div className="document-img">
-            <img src="images/heat_map.jpg" />
+            <img src="images/gas-plant.jpg" />
           </div>
           <div className="document-description">
             <h1>GAS PLANT RECONFIGURATION </h1>
             {/* <p>Description of what this is needs to go in this space.</p> */}
-            <a href="images/heat_map.jpg" download={true}>
+            <a href="images/gas-plant.jpg" download={true}>
               {" "}
               <button>DOWNLOAD</button>
             </a>
@@ -72,11 +72,11 @@ const SupportingScreen = () => {
         </div>
         <div className="document-wrapper">
           <div className="document-img">
-            <img src="images/c.jpg" />
+            <img src="images/major-impact.jpg" />
           </div>
           <div className="document-description">
             <h1>MAJOR PROJECT IMPACTS</h1>
-            <a href="images/c.jpg" download={true}>
+            <a href="images/major-impact.jpg" download={true}>
               {" "}
               <button>DOWNLOAD</button>
             </a>
@@ -86,11 +86,11 @@ const SupportingScreen = () => {
         </div>
         <div className="document-wrapper">
           <div className="document-img">
-            <img src="images/table 1.png" />
+            <img src="images/lng.png" />
           </div>
           <div className="document-description">
             <h1>LNG RECEIVING PROCESS</h1>
-            <a href="images/table 1.png" download={true}>
+            <a href="images/lng.png" download={true}>
               {" "}
               <button>DOWNLOAD</button>
             </a>
